@@ -107,6 +107,25 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SpellCap guifg=NONE guibg=NONE guisp=NONE gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
   hi SpellLocal guifg=NONE guibg=NONE guisp=NONE gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
   hi SpellRare guifg=NONE guibg=NONE guisp=NONE gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl
+  " Python: {{{
+  hi! link pythonBuiltin GruvboxOrange
+  hi! link pythonBuiltinObj GruvboxOrange
+  hi! link pythonBuiltinFunc GruvboxOrange
+  hi! link pythonFunction GruvboxAqua
+  hi! link pythonDecorator GruvboxRed
+  hi! link pythonInclude GruvboxBlue
+  hi! link pythonImport GruvboxBlue
+  hi! link pythonRun GruvboxBlue
+  hi! link pythonCoding GruvboxBlue
+  hi! link pythonOperator GruvboxRed
+  hi! link pythonException GruvboxRed
+  hi! link pythonExceptions GruvboxPurple
+  hi! link pythonBoolean GruvboxPurple
+  hi! link pythonDot GruvboxFg3
+  hi! link pythonConditional GruvboxRed
+  hi! link pythonRepeat GruvboxRed
+  hi! link pythonDottedName GruvboxGreenBold
+  " }}}
   let g:indentLine_color_gui  = '#53606e'
   let g:indentLine_color_term = 59
   let g:limelight_conceal_guifg = '#7f8c98'
