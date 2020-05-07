@@ -63,10 +63,10 @@ hi DiffText ctermbg=NONE ctermfg=4
 hi IncSearch ctermbg=3 ctermfg=0
 hi Search ctermbg=3 ctermfg=0
 hi Directory ctermbg=NONE ctermfg=4
-hi MatchParen ctermbg=1 ctermfg=8
+hi MatchParen ctermbg=NONE ctermfg=2
 hi ColorColumn ctermbg=234 ctermfg=NONE
 hi signColumn ctermbg=NONE ctermfg=4
-hi ErrorMsg ctermbg=NONE ctermfg=8
+hi ErrorMsg ctermbg=NONE ctermfg=2
 hi ModeMsg ctermbg=NONE ctermfg=2
 hi MoreMsg ctermbg=NONE ctermfg=2
 hi Question ctermbg=NONE ctermfg=4
