@@ -688,3 +688,4 @@ hi! link VimwikiList markdownListMarker
 " YAML
 " > stephpy/vim-yaml
 call s:hi("yamlKey", s:nord7_gui, "", s:nord7_term, "", "", "")
+hi Conceal ctermbg=NONE ctermfg=244
