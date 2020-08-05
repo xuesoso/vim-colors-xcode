@@ -42,7 +42,7 @@ let s:nord12_term = "11"
 let s:nord13_term = "3"
 let s:nord14_term = "2"
 let s:nord15_term = "5"
-let s:nord_comment = "244"
+let s:nord_comment = "3"
 
 let s:nord3_gui_brightened = [
   \ s:nord3_gui,
